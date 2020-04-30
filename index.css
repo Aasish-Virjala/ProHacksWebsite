@@ -207,7 +207,8 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	background-image: url(background.png)}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -358,7 +359,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: green;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -3005,7 +3006,7 @@ input, select, textarea {
 
 					ul.icons > li a{
 						display: block;
-						color: rgba(0, 0, 0, 0.55);
+						color: rgba(255, 255, 255, 0.55);
 						-webkit-transition: 0.5s ease;
 						-moz-transition: 0.5s ease;
 						-o-transition: 0.5s ease;
@@ -4213,8 +4214,9 @@ body, html {
   height: 100%;
   line-height: 1.8;
   color: black;
-  /*background-image: linear-gradient(black,green, black);*/
-  background-color: #4dff00;
+  background-image: url(background.png);
+  /*background-color: #4dff00;*/
+	/*background-color: black;*/
 }
 
 
@@ -4229,7 +4231,12 @@ body {height: 3000px;}
 }
 
 .stuff {
-  background-color: #49db21;
+  /*background-color: #49db21;*/
+	background-color: black;
+}
+.text {
+	color: green;
+	background-image: url(background.png);
 }
 
 .info {
