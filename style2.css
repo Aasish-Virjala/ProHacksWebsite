@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+#title{
+    color: #00A103;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+#title_text{
+    text-align: center;
+    font-size: 4vh;
+    z-index: 1;
+    position: relative;
+    color: #00A103;
+    margin: 0;
+    top: 20vh;
+}
+
+#title_img{
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    left: 40vw;
+    top: 15vh;
+}
+
+#title_subtext{
+    text-align: center;
+    font-size: 3vh;
+    z-index: 1;
+    position: relative;
+    color: #00A103;
+    margin: 0;
+    top: 22vh;
+    font-weight: lighter;
+}
+
+
+.background{
+    background-image: url(/assets/images/yancy-min-842ofHC6MaI-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -9999;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+.background_filter{
+    background-image: linear-gradient(#000000AA, #000000);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -99;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+#why_join{
+    background-color: #000000;
+    color: #00A103;
+
+    width: 100vw;
+    left: 0;
+}
+h3{
+    padding-top: 7vh;
+    text-align: center;
+    font-size: 3vh;
+    color: #FFFFFF;
+}
+h4{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.about_icon{
+    color: #00A103;
+    padding-top: 3vh;
+    font-size:64px!important;
+    margin-left: 48vw;
+}

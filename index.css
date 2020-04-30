@@ -192,8 +192,8 @@
 	transform: scale(1.4);
 }
 .about, .about_text {
-	background-color: #F7FFF6 !important;
-	color: #19381F;
+	background-color: #131515 !important;
+	color: #00A103;
 }
 html, body, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -211,7 +211,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font: inherit;
 	vertical-align: baseline;
-	background-color: #363636;
+	background-color: #131515;
 }
 
 article, aside, details, figcaption, figure,
