@@ -4326,3 +4326,7 @@ body {height: 3000px;}
 header{
 	height: 100vh;
 }
+
+h3{
+	font-size: 2vw !important;
+}
