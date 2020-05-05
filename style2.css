@@ -73,6 +73,7 @@ body{
     text-align: center;
     width: 100vw;
     left: 0;
+    padding-bottom: 20vh;
 }
 h3{
     padding-top: 7vh;
@@ -94,7 +95,7 @@ h4{
     -webkit-text-fill-color: transparent;*/
     color: #00A103;
     padding-top: 3vh;
-    font-size:4vw!important;
+    font-size:3vw!important;
 
     text-align:center;
 }
@@ -116,3 +117,5 @@ h4{
     font-weight: normal;
     color: #ffffff;
 }
+
+
