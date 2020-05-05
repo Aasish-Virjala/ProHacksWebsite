@@ -118,4 +118,20 @@ h4{
     color: #ffffff;
 }
 
+#sponsors{
+    width: 100vw;
+}
 
+.sponsor_card{
+    width: 60vw;
+    background-color: #272635;
+    height: 20vw;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+}
+
+.sponsor_name{
+    width: 30vw;
+    height: 20vh;
+    font-size: 2vw;
+}
