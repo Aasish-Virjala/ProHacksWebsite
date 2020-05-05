@@ -70,14 +70,14 @@ body{
 #why_join{
     background-color: #000000;
     color: #00A103;
-
+    text-align: center;
     width: 100vw;
     left: 0;
 }
 h3{
     padding-top: 7vh;
     text-align: center;
-    font-size: 3vh;
+    font-size: 4vh;
     color: #FFFFFF;
 }
 h4{
@@ -89,8 +89,30 @@ h4{
 }
 
 .about_icon{
+    /*background: linear-gradient(#14CC60, #00A103);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
     color: #00A103;
     padding-top: 3vh;
-    font-size:64px!important;
-    margin-left: 4;
+    font-size:4vw!important;
+
+    text-align:center;
+}
+
+.about_header{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-weight: normal;
+    color: #ffffff;
+    
+    font-size: 2.5vh;
+}
+
+.about_body{
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-weight: normal;
+    color: #ffffff;
 }
