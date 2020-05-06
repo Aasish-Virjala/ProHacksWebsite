@@ -78,7 +78,7 @@ body{
 h3{
     padding-top: 7vh;
     text-align: center;
-    font-size: 4vh;
+    font-size: 1.5vw;
     color: #00A103;
 }
 h4{
@@ -86,6 +86,7 @@ h4{
     margin-left: 10vw;
     margin-right: 10vw;
     font-weight: normal;
+    font-size: 1vw;
     color: #FFFFFF;
 }
 
@@ -115,6 +116,7 @@ h4{
     margin-left: 20vw;
     margin-right: 20vw;
     font-weight: normal;
+    font-size: 1vw;
     color: #ffffff;
 }
 
