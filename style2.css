@@ -79,7 +79,7 @@ h3{
     padding-top: 7vh;
     text-align: center;
     font-size: 4vh;
-    color: #FFFFFF;
+    color: #00A103;
 }
 h4{
     text-align: center;
@@ -120,18 +120,47 @@ h4{
 
 #sponsors{
     width: 100vw;
+    background-color: #000000;
 }
 
-.sponsor_card{
-    width: 60vw;
-    background-color: #272635;
-    height: 20vw;
+#guidewire{
+    width: 20vw;
+    height: 20vh;
     margin-left: 20vw;
     margin-bottom: 5vh;
+    background-image: url(guidewire.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.sponsor_name{
-    width: 30vw;
-    height: 20vh;
-    font-size: 2vw;
+#organizers{
+    width: 80vw;
+    padding-left: 10vw;
+    background-color: #000000;
+}
+
+.card{
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#000000;
+    background-clip:border-box;
+    border-radius:.25rem
+}
+.card-title{
+    margin-bottom:.75rem;
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+.card-img-top{
+    -ms-flex-negative:0;
+    flex-shrink:0;
+    width:100%;
+    border-radius: 50%;
 }
